@@ -1,0 +1,38 @@
+.feedback-form {
+  max-width: 408px;
+  padding: 24px;
+}
+input,
+textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border: 1px solid #808080;
+  border-radius: 4px;
+}
+textarea {
+  margin-bottom: 16px;
+  resize: none;
+}
+button {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  border-radius: 8px;
+  padding: 8px 16px;
+  min-width: 95px;
+  background-color: #4e75ff;
+  border: none;
+}
+input:hover,
+textarea:hover {
+  border: 1px solid #000;
+}
+
+input:active,
+textarea:active {
+  border: 1px solid #808080;
+}

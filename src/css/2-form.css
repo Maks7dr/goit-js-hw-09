@@ -27,9 +27,10 @@ button {
   background-color: #4e75ff;
   border: none;
 }
-button:hover {
+button[type='submit']:hover {
   background-color: #6c8cff;
 }
+
 input:hover,
 textarea:hover {
   border: 1px solid #000;
